@@ -1,7 +1,8 @@
 package handlers
 
 import (
-	"github.com/S7evenCalevra/webservice-Template/handlers"
+	"github.com/S7evenCalevra/webservice-Template/database"
+	"github.com/S7evenCalevra/webservice-Template/models"
 	"github.com/gofiber/fiber/v2"
 )
 

@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/S7evenCalevra/webservice-Template"
+	"github.com/S7evenCalevra/webservice-Template/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

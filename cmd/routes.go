@@ -1,9 +1,7 @@
-// cmd/main.go
-
 package main
 
 import (
-	"github.com/S7evenCalevra/webservice-Template/database"
+	"github.com/S7evenCalevra/webservice-Template/handlers"
 	"github.com/gofiber/fiber/v2"
 )
 
