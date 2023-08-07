@@ -9,7 +9,7 @@ import "gorm.io/gorm"
 //We also set the default value for each column to NULL so that we can return an error if the user does not provide their own values when they create a new Fact
 //*/
 
-type Fact struct {
+type DataRecord struct {
 	gorm.Model
 	Question string `json:"question" gorm:"text;not null;default:null`
 	Answer   string `json:"answer" gorm:"text;not null;default:null`
